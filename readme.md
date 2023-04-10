@@ -3,9 +3,9 @@
 ### 2차 미니프로젝트
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=Jupyter&logoColor=white"/> <img src="https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=Kakao&logoColor=white"/>
----
 
-**자세한 내용은 보고서를 참고**
+**자세한 내용은 Report 디렉토리 안의 보고서를 참고**
+---
 
 **1. 이미지 데이터 전처리(Image Data Preprocessing)**
  
