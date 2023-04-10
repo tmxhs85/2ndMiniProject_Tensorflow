@@ -25,6 +25,8 @@
 
  + 한 차량 모델에 대해 모델링 된 차량 이미지 120장, 크롤링을 통한 차량 이미지 180장으로 총 300장으로 재구성.
 
+ + <https://www.kaggle.com/datasets/jpjp0902/car-classification> 제작한 데이터셋을 kaggle에 업로드.
+
 <br>
 
 3. 모델 선정
