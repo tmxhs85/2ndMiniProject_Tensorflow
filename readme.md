@@ -5,7 +5,9 @@
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=Jupyter&logoColor=white"/> <img src="https://img.shields.io/badge/Kakao-FFCD00?style=flat&logo=Kakao&logoColor=white"/>
 ---
 
-1. 이미지 데이터 전처리(Image Data Preprocessing)
+**자세한 내용은 보고서를 참고**
+
+**1. 이미지 데이터 전처리(Image Data Preprocessing)**
  
  + 이미지 수집 과정에서 numpy 형식으로 저장.
  
@@ -17,7 +19,7 @@
 
 <br>
 
-2. 데이터셋 수정
+**2. 데이터셋 수정**
 
  + 학습을 위한 차량 이미지 데이터가 깔끔하고 명확하지 않아서 데이터셋을 수정하기로 결정.
 
@@ -29,7 +31,7 @@
 
 <br>
 
-3. 모델 선정
+**3. 모델 선정**
 
  + 하이퍼 파라미터 설정: Epochs, Batch size, Learning rate 설정.
 
@@ -39,4 +41,10 @@
 
  + 하이퍼 파라미터 튜닝 : 하이퍼 파라미터 튜닝 후 모델 학습 및 평가.
 
- + 최종결론 : MobileNet, DenseNet 두 모델에 대해 Finetuning 진행하기로 결정.
+ + MobileNet, DenseNet 두 모델에 대해 Finetuning 진행하기로 결정.
+
+ + 전이학습 시 trainable한 layer를 결정하는 Finetuning 진행
+
+ + 최종 결론 : 144층 이전의 layer를 freezing시켜 trainable하지 않게 만든 DenseNet 모델을 최종 선정
+
+ + (validation accuracy : 98.84%)
